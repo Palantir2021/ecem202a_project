@@ -6,9 +6,15 @@ More than 80% of information that human brain processes is visual. Therefore, vi
 
 ## 2. State of the Art & Its Limitations
 
-The most useful assistance for visually impaired people has been the guide dogs, which need to be trained at a high cost to navigate blind people through obstacles, and have physical needs to be taken care of. And in China, there are tens of millions of blind people with a total of two hundred guide dogs bred in ten years, and now less than one hundred are in service. Those who cannot afford a guide dog usually employ a white cane, which can only detect obstacles near to the ground.    
+The most useful assistance for visually impaired people has been the guide dogs, which need to be trained at a high cost to navigate blind people through obstacles, and have physical needs to be taken care of. And in China, there are tens of millions of blind people with a total of two hundred guide dogs bred in ten years, and now less than one hundred are in service. Those who cannot afford a guide dog usually employ a white cane, which can only detect obstacles near to the ground.   
+
+ 
 With the development of electronics industry, a wide range of devices were invented to aid visually impaired people in their indoor and outdoor activities. Earliest inventions employ cheap ultrasonic and sonar sensors, which are still welcomed in today's designs, and lasers to detect the distance of obstacles. However, due to the difficulties in calibration, manual scanning and reflective error exclusion[1], those sensors are mostly used alongside more accurate detectors as auxiliary equipment.    
+
+
 Modern obstacle avoidance systems are embedded into wearable or portable devices. Examples of the former are Eyeronman[2] smart vest that uses vibration to translate sensor data to tactile information, and Project Guideline[3] belt that uses camera to sense and sound tone to provide feedback. The latter is mostly realized in the form of smart canes, including Augmented Cane [4] which employs a comprehensive set of modules including LIDAR, camera, GPS and IMU, whose data can be feedback to user with grounded kinesthetic omni-wheel, audio and push button, and WeWalk[5] which has ultrasonic above-ground obstacle detection, automatic voice feedback and smartphone application-aided navigation and transportation assistant.    
+
+
 The most obvious limitation of modern devices is high cost, mainly due to the employment of complicated sensors and high-standard algorithms. Also, a smart cane need to be held at all time, which limits the hand mobility of its user.    
 
 ## 3. Novelty & Rationale
@@ -78,10 +84,18 @@ Task 1 is to be done by Ruoye Wang, task 2,3 are to be done by Jinchen Wu, and t
 
 ### 9.a. Papers
 
-Many modern designs still use the shape of a white cane, only that the white cane now has senses.       
+Many modern designs still use the shape of a white cane, only that the white cane now has senses.    
+
+   
 The Augmented Cane, presented by Slade et al. [4], utilizes multiple kinds of sensors including 2D LIDAR, camera, GPS antenna, and inertial measurement unit to provide various functions like obstacle avoidance, orientation and navigation. It shows a wide range of choice of sensors and feedbacks. However, most of its sensors are expensive and overqualified for our goal.      
+
+
 With lower cost, Wahab et al. [6] produce a prototype of smart cane that detects obstacles with 40kHz ultrasonic sensors, and feeds warning back in the form of voices, only 3 types of which are provided. Chung et al. [7] present another design of smart cane that utilizes an ultrasonic sensor to detect obstacles and a gyroscope to prevent falling; it also has a voice navigation system which communicates with smartphone application via Bluetooth to guide the user to their destination.      
+
+
 The above realization of smart canes have proven the feasibility of ultrasonic obstacle detection, and the latter, in particular, enlightened us that smart phone applications can be connected to the device via Bluetooth to provide more user-friendly feedback.       
+
+
 Additionally, We need to use the camera for more real-time obstacle detection, so we will refer to the smaller and faster YOLOv5s[8] to implement this function, and optimize it for our usage scenarios. We also infer the article Earables for Personal-Scale Behavior Analytics[9], which introduces a programmable earphone with sensors such as a built-in gyroscope. We use this earable to provide obstacle detection feedback, and the built-in sensor data can also provide corrections to the obstacle detection algorithm. This article and related technical documents help us develop a mobile application adapted to our project.   
 
 
