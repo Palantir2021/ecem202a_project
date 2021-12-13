@@ -9,7 +9,7 @@ Jinchen Wu, Ruoye Wang
 * [Proposal](Proposal)
 * [Midterm presentation slides](M202AMidtermSlides_RuoyeWang_JinchenWu.pdf)
 * [Final presentation slides](M202A_finalSlides_605625594RuoyeWang_305627306JinchenWu.pdf)
-* [Final presentation video](M202A_finalSlides_605625594RuoyeWang_305627306JinchenWu.pdf)
+* [Final presentation video](https://youtu.be/H867mE56Vog)
 
 ## Table of Contents
 
