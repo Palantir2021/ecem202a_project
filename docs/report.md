@@ -6,7 +6,6 @@ Jinchen Wu, Ruoye Wang
 
 ### Required Submissions
 
-* [Proposal](https://github.com/Palantir2021/ecem202a_project/blob/main/docs/proposal.md)
 * [Proposal](proposal)
 * [Midterm presentation slides](M202AMidtermSlides_RuoyeWang_JinchenWu.pdf)
 * [Final presentation slides](M202A_finalSlides_605625594RuoyeWang_305627306JinchenWu.pdf)
