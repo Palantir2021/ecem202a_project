@@ -127,6 +127,7 @@ Then, processed data from both types of sensors are transmitted to the controlle
 Ultrasonic module and controller Arduino are powered by 9-volt alkaline batteries via breadboard power supply module, and camera module is powered by a mobile power supply (Charge Pal).
 ![avatar](media/1.png)
 ![avatar](media/2.png)
+
 ### 4.2 Ultrasonic Module & Sensor Arduino
 
 
