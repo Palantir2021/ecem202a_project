@@ -7,8 +7,8 @@ Jinchen Wu, Ruoye Wang
 ### Required Submissions
 
 * [Proposal] (Proposal)
-* [Midterm presentation slides] ()
-* [Final presentation slides] ()
+* [Midterm presentation slides] (M202AMidtermSlides_RuoyeWang_JinchenWu.pdf)
+* [Final presentation slides] (M202A_finalSlides_605625594RuoyeWang_305627306JinchenWu.pdf)
 * [Final presentation video] ()
 
 ## Table of Contents

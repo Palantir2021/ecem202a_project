@@ -4,7 +4,7 @@ The objective of this project is to build a system to detect and warn obstacles 
 
 # Team
 
-* Jinchen Wu \# 305627306
+* Jinchen Wu \#305627306
 * Ruoye Wang \#605625594
 
 # Required Submissions
