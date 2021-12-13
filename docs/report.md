@@ -6,7 +6,7 @@ Jinchen Wu, Ruoye Wang
 
 ### Required Submissions
 
-* [Proposal] ()
+* [Proposal] (Proposal)
 * [Midterm presentation slides] ()
 * [Final presentation slides] ()
 * [Final presentation video] ()

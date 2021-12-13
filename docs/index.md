@@ -10,6 +10,6 @@ The objective of this project is to build a system to detect and warn obstacles 
 # Required Submissions
 
 * [Proposal](proposal)
-* [Midterm Checkpoint Presentation Slides](https://drive.google.com/file/d/1zy9Io7QRTeSS3SPTdOrXrQyp_DPW_3XS/view?usp=sharing)
-* [Final Presentation Slides](https://drive.google.com/file/d/1906n_uVj93ZC6c--oPRCZcUOoQMxmZxb/view?usp=sharing)
+* [Midterm Checkpoint Presentation Slides](M202AMidtermSlides_RuoyeWang_JinchenWu.pdf)
+* [Final Presentation Slides](M202A_finalSlides_605625594RuoyeWang_305627306JinchenWu.pdf)
 * [Final Report](report)
