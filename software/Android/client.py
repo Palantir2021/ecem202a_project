@@ -3,7 +3,7 @@
 
 import socket
 
-ip_port = ('164.67.234.12', 8888)
+ip_port = ('10.0.2.2', 4567)
 
 s = socket.socket()     # 创建套接字
 
@@ -24,4 +24,4 @@ while True:     # 通过一个死循环不断接收用户输入，并发送给�
     server_reply = s.recv(1024).decode('utf-8')
     print(server_reply)
 
-s.close()       # 关闭连接
+s.close()       # 关闭连接  

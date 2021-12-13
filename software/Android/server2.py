@@ -8,7 +8,7 @@ Created on Sun Nov 14 20:51:07 2021
 import jpysocket
 import socket
 
-ip_port = ('164.67.234.12', 8888)
+ip_port = ('172.20.10.4', 4567)
 
 sk = socket.socket()            # 创建套接字
 sk.bind(ip_port)                # 绑定服务地址
@@ -17,8 +17,8 @@ print('waiting for client...')
 conn, address = sk.accept()     # 等待连接，此处自动阻塞
 print("get client");
 print(address);
-hello = jpysocket.jpyencode("Hello!")
-conn.send(hello)
+#hello = jpysocket.jpyencode("a")
+#conn.send(hello)
 
 while True:     # 一个死循环，直到客户端发送‘exit’的信号，才关闭连接
     
@@ -29,6 +29,7 @@ while True:     # 一个死循环，直到客户端发送‘exit’的信号，�
         continue
     inp = jpysocket.jpyencode(inp)
     conn.send(inp)
+
     #if client_data == "exit":       # 判断是否退出连接
     #    exit("end!")
     #print("message from%s:%s" % (address, client_data))

@@ -3,7 +3,7 @@
 
 import socket
 
-ip_port = ('164.67.234.12', 8888)
+ip_port = ('10.0.2.2', 4567)
 
 sk = socket.socket()            # 创建套接字
 sk.bind(ip_port)                # 绑定服务地址
